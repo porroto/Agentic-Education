@@ -1,0 +1,20 @@
+{
+  "project_id": "synthetic-project-001",
+  "mission": "Environmental Sensor Challenge",
+  "evidence_items": [
+    {
+      "type": "reflection",
+      "status": "provided"
+    },
+    {
+      "type": "data_table",
+      "status": "provided"
+    },
+    {
+      "type": "teacher_validation",
+      "status": "missing"
+    }
+  ],
+  "ai_use_disclosure": "provided",
+  "recommendation": "teacher review needed"
+}

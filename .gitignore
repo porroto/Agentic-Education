@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local environment
+.env
+.env.*
+
+# Data safety
+private-data/
+student-data/
+real-student-work/
+*.xlsx
+*.csv
+*.docx
+*.pdf
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

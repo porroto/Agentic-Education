@@ -1,0 +1,14 @@
+{
+  "summary": "The learner provided a mission statement, sample data table, and reflection. Teacher validation is still missing.",
+  "rubric_alignment": {
+    "claim": "developing",
+    "evidence": "meeting",
+    "reasoning": "approaching",
+    "revision": "missing"
+  },
+  "missing_evidence": [
+    "revision notes",
+    "teacher validation"
+  ],
+  "recommended_next_step": "Ask learner to explain what changed after testing."
+}

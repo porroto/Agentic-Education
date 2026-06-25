@@ -1,0 +1,19 @@
+name: Markdown Check
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+  push:
+    paths:
+      - "**/*.md"
+
+jobs:
+  markdown-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check repository structure
+        run: |
+          echo "Markdown files found:"
+          find . -name "*.md" -maxdepth 5 | sort

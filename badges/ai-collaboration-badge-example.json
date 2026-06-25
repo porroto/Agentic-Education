@@ -1,0 +1,21 @@
+{
+  "name": "Responsible AI Collaborator Badge",
+  "badge_type": "AI Collaboration Recognition",
+  "issuer": "OpenLab / S.A.T. Labs",
+  "learner_id": "synthetic-learner-002",
+  "mission": "AI Literacy Reflection",
+  "evidence": [
+    "prompt example",
+    "AI output critique",
+    "student revision",
+    "reflection"
+  ],
+  "ai_use_disclosure": "Learner used AI as a brainstorming partner and then critiqued and revised the output.",
+  "human_validation": {
+    "validator_role": "teacher",
+    "decision": "requires review"
+  },
+  "non_financial": true,
+  "revocable": true,
+  "privacy_note": "Synthetic example only."
+}

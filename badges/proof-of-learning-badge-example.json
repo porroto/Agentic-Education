@@ -1,0 +1,22 @@
+{
+  "name": "Environmental Data Explorer Badge",
+  "badge_type": "Proof-of-Learning",
+  "issuer": "OpenLab / S.A.T. Labs",
+  "learner_id": "synthetic-learner-001",
+  "mission": "Environmental Sensor Challenge",
+  "evidence": [
+    "sensor plan",
+    "sample data table",
+    "student reflection",
+    "teacher validation note"
+  ],
+  "ai_use_disclosure": "AI was used to brainstorm graph titles and reflection questions.",
+  "human_validation": {
+    "validator_role": "teacher",
+    "decision": "approved for prototype example",
+    "note": "Synthetic example only."
+  },
+  "non_financial": true,
+  "revocable": true,
+  "privacy_note": "No real student data included."
+}

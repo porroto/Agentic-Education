@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "OpenLab Agentic Education"
+message: "If you use this framework, please cite it as below."
+type: software
+authors:
+  - family-names: Vargas
+    given-names: Roger
+abstract: "A research and prototype framework for preserving human agency, evidence, and teacher judgment in AI-supported learning."
+license: "LicenseRef-TBD"
+repository-code: "https://github.com/porroto/openlab-agentic-education"
+keywords:
+  - agentic education
+  - proof-of-learning
+  - generative AI
+  - human agency
+  - portfolio assessment

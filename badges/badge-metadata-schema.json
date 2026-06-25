@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpenLab Proof-of-Learning Badge Metadata",
+  "type": "object",
+  "required": [
+    "name",
+    "badge_type",
+    "issuer",
+    "evidence",
+    "human_validation",
+    "non_financial"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "badge_type": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "learner_id": {
+      "type": "string",
+      "description": "Use privacy-safe identifier only."
+    },
+    "mission": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ai_use_disclosure": {
+      "type": "string"
+    },
+    "human_validation": {
+      "type": "object"
+    },
+    "non_financial": {
+      "type": "boolean",
+      "const": true
+    },
+    "revocable": {
+      "type": "boolean"
+    },
+    "privacy_note": {
+      "type": "string"
+    }
+  }
+}

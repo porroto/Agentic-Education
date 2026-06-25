@@ -1,0 +1,16 @@
+{
+  "rubric": "Proof-of-Learning Rubric",
+  "criteria": [
+    "claim",
+    "evidence",
+    "reasoning",
+    "revision",
+    "validation"
+  ],
+  "scale": [
+    1,
+    2,
+    3,
+    4
+  ]
+}
