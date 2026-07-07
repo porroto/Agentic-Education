@@ -1,0 +1,28 @@
+{
+  "project_id": "synthetic-project-001",
+  "mission": "Environmental Sensor Challenge",
+  "learner_id": "synthetic-learner-001",
+  "evidence_items": [
+    {
+      "type": "learning_claim",
+      "status": "provided",
+      "content": "I can use sound data from three locations to decide where our classroom needs a quiet-zone strategy."
+    },
+    {
+      "type": "data_table",
+      "status": "provided",
+      "content": "Location A: 45 dB. Location B: 61 dB. Location C: 72 dB."
+    },
+    {
+      "type": "reflection",
+      "status": "provided",
+      "content": "I wanted to find out where our classroom gets too loud. I compared three locations because data is stronger when I compare more than one place. Location C is loudest, which means it may need a schedule change. Next time I would collect data at different times of day."
+    },
+    {
+      "type": "teacher_validation",
+      "status": "missing"
+    }
+  ],
+  "ai_use_disclosure": "provided",
+  "ai_use_disclosure_text": "AI helped me think of graph labels, but I chose the final title and explained the results myself."
+}
