@@ -7,7 +7,7 @@ openlab-agentic-education/
 ├── ROADMAP.md
 ├── MANIFESTO.md
 ├── CITATION.cff
-├── LICENSE.md
+├── LICENSE
 ├── papers/
 ├── proposals/
 ├── docs/

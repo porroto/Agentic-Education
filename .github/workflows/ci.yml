@@ -1,0 +1,58 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  python-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile-check all Python prototypes
+        run: |
+          find . -name "*.py" -print0 | xargs -0 -n1 python -m py_compile
+
+  validate-badge-schemas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install jsonschema
+        run: pip install jsonschema
+      - name: Validate example badges against the schema
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          from jsonschema import Draft202012Validator
+
+          schema = json.loads(Path("badges/badge-metadata-schema.json").read_text())
+          validator = Draft202012Validator(schema)
+
+          examples = sorted(Path("badges").glob("*-example.json"))
+          if not examples:
+              sys.exit("No badge example files found under badges/")
+
+          failed = False
+          for example in examples:
+              instance = json.loads(example.read_text())
+              errors = sorted(validator.iter_errors(instance), key=str)
+              if errors:
+                  failed = True
+                  print(f"::error file={example}::{len(errors)} schema violation(s)")
+                  for error in errors:
+                      print(f"  - {error.message}")
+              else:
+                  print(f"OK: {example}")
+
+          sys.exit(1 if failed else 0)
+          PY
