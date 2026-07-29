@@ -121,4 +121,4 @@ MIT — see [LICENSE](LICENSE).
 ---
 
 **Built by [Roger Vargas](https://github.com/porroto)** · STEM educator & founder, S.A.T. Labs / OpenLab
-*A Colombian heart with a global mind.* 🌎
+*A teacher's heart with a global mind.* 🌎
