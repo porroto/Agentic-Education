@@ -17,7 +17,7 @@ Human Review
   ↓
 Revision
   ↓
-Commit / Portfolio Update
+Commit / Learning Portfolio Update
 ```
 
 ## Controlled fleet loop
@@ -25,21 +25,36 @@ Commit / Portfolio Update
 Best for a full OpenLab mission.
 
 ```text
-Human Goal
+Learner / Educator Goal
   ↓
-Mr. V Orchestrator
+MIRA — Reflection & Agency Interface
   ↓
-Portfolio Curator Agent
+Mission + Learning Claim
   ↓
-OLA Review Agent
+Evidence / Reflection / Iteration
   ↓
-Validator Agent
+OpenLab Orchestration Layer
+  ├─ Mr. V orchestration experiment
+  ├─ Portfolio Curator
+  └─ OLA trust checks
   ↓
-Teacher Approval
+AI-assisted Evidence Review
   ↓
-Portfolio / Badge / Chapter
+HUMAN VALIDATION GATE
+  ↓
+Learning Proof
+  ↓
+Recognition / Learning Portfolio / Next Pathway
 ```
 
-## Core principle
+## Why MIRA and Mr. V are separate
 
-Single loops build quality. Fleet loops build scale. OLA keeps both honest.
+MIRA is the proposed pedagogical interface: it should help learners understand and govern their learning. Mr. V remains an experimental orchestration implementation behind that relationship. The learner should not have to understand the agent architecture to exercise agency over the learning process.
+
+## Core principles
+
+Single loops build quality. Fleet loops explore scale. OLA applies trust checks. MIRA protects the learner-facing agency loop. Human Validation remains final.
+
+> **AI REVIEW ≠ HUMAN VALIDATION**
+
+See [`TERMINOLOGY.md`](TERMINOLOGY.md) for canonical vocabulary.
