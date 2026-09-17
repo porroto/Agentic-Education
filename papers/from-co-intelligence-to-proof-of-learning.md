@@ -35,7 +35,7 @@ Agency refers to the capacity to act intentionally, make choices, pursue goals, 
 
 Generative AI increases the need for agency because it increases the number of possible outputs. When a system can generate many answers, designs, or explanations, the learner must decide which ones are meaningful, accurate, ethical, useful, or worth improving. In this sense, AI does not eliminate the need for human judgment. It raises the value of judgment.
 
-Taste may become one of the most important educational capacities in the AI era. Taste is not only aesthetic preference. It includes the ability to recognize quality, relevance, coherence, originality, and meaning. In a classroom, taste appears when a learner can say, “This answer is not strong enough,” “This design does not solve the real problem,” or “This explanation sounds correct but does not match the evidence.”
+Taste (in Mollick's words) or lerner's judgment may become one of the most important educational capacities in the AI era. Taste is not only aesthetic preference. It includes the ability to recognize quality, relevance, coherence, originality, and meaning. In a classroom, taste appears when a learner can say, “This answer is not strong enough,” “This design does not solve the real problem,” or “This explanation sounds correct but does not match the evidence.”
 
 ## Theoretical Foundations
 
