@@ -7,6 +7,29 @@ Language shapes architecture. This file defines the canonical vocabulary for Ope
 
 > **Evidence is collected. Claims are examined. AI assists review. Humans validate. Trust is earned. Recognition follows.**
 
+## Generative and agentic distinction
+
+OpenLab distinguishes **generative capability**, **agentic capability**, and **Agentic Education**.
+
+| Term | Working meaning |
+|---|---|
+| **Generative AI** | Systems used to generate or transform content such as text, images, code, explanations, questions, simulations, or feedback. |
+| **Agentic AI** | Systems that can pursue goals and take actions with some degree of autonomy within defined tools, context, permissions, and governance boundaries. |
+| **Generative Education** | A useful descriptive frame for educational practice in which generative systems support creation, explanation, feedback, simulation, and other learning activities. It is not currently OpenLab's canonical framework name. |
+| **Agentic Education** | The OpenLab educational and research framework centered on learner agency, meaningful action, evidence of learning, reflection, human validation, human-AI collaboration, and human governance. |
+
+Generative AI can operate **inside** Agentic Education. A companion may generate a question, a reflection prompt, an explanation, or a summary of evidence. Generation, however, is not itself the learning loop.
+
+OpenLab's working distinction is:
+
+> **Generative AI makes things. Agentic AI can pursue goals and take actions. Agentic Education designs the learning system so that increased machine agency strengthens rather than replaces human agency.**
+
+This creates a design test for new technologies and capabilities:
+
+> **Does this increase meaningful learner agency, strengthen credible proof-of-learning, or improve learner-controlled trust?**
+
+A technology should not become part of the canonical architecture merely because it is novel or technically possible.
+
 ## Core terms
 
 | Term | Canonical meaning |
