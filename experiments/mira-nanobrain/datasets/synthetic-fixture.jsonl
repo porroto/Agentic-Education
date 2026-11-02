@@ -1,0 +1,2 @@
+{"id":"SYN-NB-001","synthetic":true,"task":"socratic_hint","language":"en","text":"Why does a shadow move?","target_response":{"message":"What changes when the light source moves?","requires_human_review":false}}
+{"id":"SYN-NB-002","synthetic":true,"task":"reflection","language":"es","text":"¿Qué cambió en tu modelo?","target_response":{"message":"¿Qué observaste después del cambio?","requires_human_review":false}}
