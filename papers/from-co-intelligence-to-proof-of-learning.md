@@ -1,4 +1,4 @@
-# From Co-Intelligence to Proof-of-Learning: Preserving Human Agency, Taste, and Evidence in Agentic Education
+# From Co-Intelligence to Proof-of-Learning: Preserving Human Agency, Judgement, and Evidence in Agentic Education
 
 Roger Vargas  
 S.A.T. Labs / OpenLab Initiative
