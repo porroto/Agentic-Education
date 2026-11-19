@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/docs/founding-crew/index.html"
+    },
+    {
+      "source": "/founding-crew",
+      "destination": "/docs/founding-crew/index.html"
+    }
+  ]
+}
